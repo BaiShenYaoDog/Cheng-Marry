@@ -1,0 +1,16 @@
+name: Cheng-Marry
+version: '1.0'
+main: cn.ChengZhiYa.Marry.main
+api-version: 1.16
+authors: [ ChengZhiYa ]
+description: 结婚插件
+commands:
+  Marry:
+    aliases: [m]
+    permission: ChengMarry.Default
+    permission-message: 你没有权限执行
+    description: 命令
+permissions:
+  ChengMarry.Default:
+    description: 默认权限
+    default: true
